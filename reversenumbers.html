@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //Write a program to enter a number and find it revers.
+        let num=prompt("Enter Any numbers");
+        let digit,revers=0;
+        let temp=num;
+        for(temp=num;temp!==0;temp=parseInt(temp/10))
+    {
+        digit=temp%10;
+        revers=(revers*10)+digit;
+    }
+    document.write("Numbers=",num,"<br/>");
+    document.write("Reverse numbers=",revers);
+    </script>
+</body>
+</html>

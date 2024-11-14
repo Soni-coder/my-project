@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //write a program to swap number
+        let n=prompt("Enter any numbers");
+        let fN,lN,t=1;
+        lN=n%10;
+        let sN=parseInt(n/10);
+        let i;
+        for(let i=sN;i>=1;i=parseInt(i/10))
+    {
+        if(i.length==1)
+    {
+
+    }
+    //document.write(i,"<br/>");
+    fN=i;
+    t=t*10;
+    //document.write(t,"<br/>");
+    }
+    //fN=i;
+    //document.write(fN,"<br/>");
+    sN=(sN*10)%t;
+//document.write(sN);
+sN=sN+fN;
+//document.write(sN,"<br/>");
+    sN=sN+(lN*t);
+document.write("Swap the number last=first, and first=last=", n," = ",sN);
+    //console.log(sN);
+    //console.log(fN);
+    </script>
+</body>
+</html>

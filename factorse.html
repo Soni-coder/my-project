@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //write a js program to find all factors of numbers
+        let num=prompt("Enter any numbers");
+        for(let i=1;i<=num;i++)
+    {
+        document.write("Number=",num,"<br/> ",num,"%",i,"=",num%i," ");
+        if(num%i===0)
+    {
+        document.write("Factors=",i);
+
+    }
+    else{
+        document.write("not a factors becouse its not divide by  =",i);
+    }
+    document.write("<br/>");
+    }
+    </script>
+</body>
+</html>

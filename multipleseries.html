@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nested loops</title>
+</head>
+<body>
+<script>
+    //write a program to print 11111,22222 series n time;
+    let n=prompt("Enter any number")
+    for(let i=1;i<=n;i++)
+{
+    for(let j=1;j<=n;j++)
+{
+    document.write(i,"&nbsp;&nbsp");
+}
+document.write("<br/>");
+}
+
+document.write("<br/>");
+document.write("<br/>")
+//write a program 123456
+ //               123456
+//                123456 series.
+
+for(i=1;i<=n;i++)
+{
+    for(j=1;j<=n;j++)
+{
+    document.write(j,"&nbsp; ");
+}
+let space=" ";
+document.write(space);
+document.write("<br/>");
+}
+
+//reverse series.
+document.write("<br/>");
+
+document.write("<br/>");
+
+ for(i=n;i>=1;i--)
+ {
+    for(j=1;j<=n;j++)
+ {
+    document.write(i,"&nbsp;&nbsp;");
+ }
+document.write("<br/>");
+ }
+
+ //reverse number,54321 like this
+ document.write("<br/>");
+ document.write("<br/>");
+
+for(i=n;i>=1;i--)
+{
+    for(j=n;j>=1;j--)
+{
+    document.write(j,"&nbsp;&nbsp;");
+
+}                                                                                                                                                                                       
+document.write("<br/>");
+
+}
+
+//peramid number.
+document.write("<br/>");
+document.write("<br/>");
+
+ for(i=1;i<=n;i++)
+ {
+    for(j=1;j<=i;j++)
+ {
+    document.write(j," ");
+ }
+ document.write("<br/>");
+
+ }
+
+ // peramide
+ document.write("</br>");
+ document.write("</br>");
+ for(i=1;i<=n;i++)
+ {
+    for(j=1;j<=i;j++)
+ {
+    document.write(i," ");
+ }
+ document.write("</br>");                                                                                                                                                                                                                           
+ }
+
+ //reverse peramide.
+
+ document.write("</br>");
+ document.write("</br>");
+ for(i=n;i>=1;i--)
+ {
+    for(j=i;j>=1;j--)
+ {
+    document.write(j," ");
+ }
+ document.write("</br>");
+ }
+
+ //peramide reverse
+ document.write("</br>");
+ document.write("</br>");
+ for(i=n;i>=1;i--)
+ {
+    for(j=i;j>=1;j--)
+ {
+    document.write(i," ");
+ }
+ document.write("</br>");
+ }
+</script>
+</body>
+</html>

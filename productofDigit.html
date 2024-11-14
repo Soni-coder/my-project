@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //Write a js program to calculate product of digit.
+        let num=prompt("Enter any products");
+        let product=1;
+        let temp=num;
+        for(temp=num;temp!==1;temp=parseInt(temp/10))
+    {
+        let digit=temp%10;
+        product*=digit;
+    }
+    document.write("Products=",num);
+    document.write("<br/>");
+    document.write("Poducts of Digits =  ",product);
+    </script>
+</body>
+</html>

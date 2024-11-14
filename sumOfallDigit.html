@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let num=prompt("Enter numbers");
+        let sum=0;
+        let temp=num;
+        for(temp=num;temp!==0;temp=parseInt(temp/10))
+    {
+        let digit=temp%10;
+        sum+=digit;
+        
+    }
+    document.write("Numbers= ",num,"<br/>");
+    document.write("Sum of all numbers= ",sum);
+
+
+    </script>
+</body>
+</html>

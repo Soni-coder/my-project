@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //Write a program to check whether number is polindrom or not.
+        let num=prompt("Enter any munbres");
+        let revers=0,digit;
+        let temp=num;
+        for(temp=num;temp!==0;temp=parseInt(temp/10))
+    {
+        digit=temp%10;
+        revers=(revers*10)+digit;
+    }
+    document.write(" revers Numbers= ",revers,"<br/>");
+    if(num==revers)
+    {
+        document.write("Numbers is polindrom=",revers);
+    }
+    else
+    {
+        document.write("number id not a polindrom=",revers);
+    }
+    </script>
+</body>
+</html>

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //write a program to find first and last digit of number.
+        let num=prompt("Enter any numbers");
+        let fDigit,lDigit;
+        let sum=0;
+        let temp=num;
+        lDigit=temp%10;
+        for(temp=num;temp>=10;temp=parseInt(temp/10))
+    {
+document.write(" ");
+    }
+    fDigit=temp;
+sum=fDigit+lDigit;
+    document.write(num,"<br/>");
+    document.write("First Digit=",fDigit,"<br/>");
+    document.write("last Digit=",lDigit,"<br/>");
+    document.write("Sum of first digit and last digit = ",sum);
+
+    </script>
+</body>
+</html>
